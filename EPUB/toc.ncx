@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ncx xmlns="http://www.daisy.org/z3986/2005/ncx/" xmlns:ncx="http://www.daisy.org/z3986/2005/ncx/"
+	version="2005-1" xml:lang="en">
+	<head>
+		<meta name="dtb:uid" content="http://publications.gc.ca/pub?id=466122&amp;sl=0"/>
+	</head>
+	<docTitle>
+		<text>Vol. 76, No. 1, 2014</text>
+	</docTitle>
+	<navMap>
+		<navInfo>
+			<text>Table of contents</text>
+		</navInfo>
+		<navPoint id="np-toc" playOrder="1">
+			<navLabel>
+				<text>Table of contents</text>
+			</navLabel>
+			<content src="nav.xhtml"/>
+		</navPoint>
+		<navPoint id="np01" playOrder="2">
+			<navLabel>
+				<text>When defusing tensions, quality counts</text>
+			</navLabel>
+			<content src="story01.xhtml"/>
+		</navPoint>
+		<navPoint id="np02" playOrder="3">
+			<navLabel>
+				<text>RCMP lateral entry program provides opportunity</text>
+			</navLabel>
+			<content src="story02.xhtml"/>
+		</navPoint>
+		<navPoint id="np03" playOrder="4">
+			<navLabel>
+				<text>Haiti bike brigade brings police to people</text>
+			</navLabel>
+			<content src="story03.xhtml"/>
+		</navPoint>
+		<navPoint id="np04" playOrder="5">
+			<navLabel>
+				<text>App takes aim at OSIs</text>
+			</navLabel>
+			<content src="story04.xhtml"/>
+		</navPoint>
+		<navPoint id="np05" playOrder="6">
+			<navLabel>
+				<text>System combats fraudulent travel documents</text>
+			</navLabel>
+			<content src="story05.xhtml"/>
+		</navPoint>
+		<navPoint id="np06" playOrder="7">
+			<navLabel>
+				<text>Does body worn video help or hinder de-escalation?</text>
+			</navLabel>
+			<content src="story06.xhtml"/>
+		</navPoint>
+		<navPoint id="np07" playOrder="8">
+			<navLabel>
+				<text>The middle men</text>
+			</navLabel>
+			<content src="story07.xhtml"/>
+		</navPoint>
+		<navPoint id="np08" playOrder="9">
+			<navLabel>
+				<text>Peaceful resolution</text>
+			</navLabel>
+			<content src="story08.xhtml"/>
+		</navPoint>
+		<navPoint id="np09" playOrder="10">
+			<navLabel>
+				<text>Cyberbullying</text>
+			</navLabel>
+			<content src="story09.xhtml"/>
+		</navPoint>
+		<navPoint id="np10" playOrder="11">
+			<navLabel>
+				<text>Making waves</text>
+			</navLabel>
+			<content src="story10.xhtml"/>
+		</navPoint>
+		<navPoint id="np11" playOrder="12">
+			<navLabel>
+				<text>Fake users reap real gains</text>
+			</navLabel>
+			<content src="story11.xhtml"/>
+		</navPoint>
+		<navPoint id="np12" playOrder="13">
+			<navLabel>
+				<text>Latest research in law enforcement</text>
+			</navLabel>
+			<content src="story12.xhtml"/>
+		</navPoint>
+		<navPoint id="np13" playOrder="14">
+			<navLabel>
+				<text>Open lines of communication</text>
+			</navLabel>
+			<content src="story13.xhtml"/>
+		</navPoint>
+	</navMap>
+	<pageList>
+		<navInfo>
+			<text>Pages</text>
+		</navInfo>
+		<pageTarget type="body">
+			<navLabel>
+				<text>1</text>
+			</navLabel>
+			<content src="story01.xhtml"/>
+		</pageTarget>
+		<pageTarget type="body">
+			<navLabel>
+				<text>2</text>
+			</navLabel>
+			<content src="story02.xhtml"/>
+		</pageTarget>
+		<pageTarget type="body">
+			<navLabel>
+				<text>3</text>
+			</navLabel>
+			<content src="story03.xhtml"/>
+		</pageTarget>
+		<pageTarget type="body">
+			<navLabel>
+				<text>4</text>
+			</navLabel>
+			<content src="story04.xhtml"/>
+		</pageTarget>
+		<pageTarget type="body">
+			<navLabel>
+				<text>5</text>
+			</navLabel>
+			<content src="story05.xhtml"/>
+		</pageTarget>
+		<pageTarget type="body">
+			<navLabel>
+				<text>6</text>
+			</navLabel>
+			<content src="story06.xhtml"/>
+		</pageTarget>
+		<pageTarget type="body">
+			<navLabel>
+				<text>7</text>
+			</navLabel>
+			<content src="story07.xhtml"/>
+		</pageTarget>
+		<pageTarget type="body">
+			<navLabel>
+				<text>8</text>
+			</navLabel>
+			<content src="story08.xhtml"/>
+		</pageTarget>
+		<pageTarget type="body">
+			<navLabel>
+				<text>9</text>
+			</navLabel>
+			<content src="story09.xhtml"/>
+		</pageTarget>
+		<pageTarget type="body">
+			<navLabel>
+				<text>10</text>
+			</navLabel>
+			<content src="story10.xhtml"/>
+		</pageTarget>
+		<pageTarget type="body">
+			<navLabel>
+				<text>11</text>
+			</navLabel>
+			<content src="story11.xhtml"/>
+		</pageTarget>
+		<pageTarget type="body">
+			<navLabel>
+				<text>12</text>
+			</navLabel>
+			<content src="story12.xhtml"/>
+		</pageTarget>
+		<pageTarget type="body">
+			<navLabel>
+				<text>13</text>
+			</navLabel>
+			<content src="story13.xhtml"/>
+		</pageTarget>
+	</pageList>
+</ncx>

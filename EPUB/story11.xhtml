@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" lang="en"
+	xml:lang="en">
+	<head>
+<title>Vol. 76, No. 1, 2014</title>
+<link href="css/epub.css" type="text/css" rel="stylesheet" />
+	</head>
+	<body>
+<section>
+	<h1><a id="cont">Featured Submission</a></h1>
+
+	<div class="module-poster">
+	  <div><img alt="Gloved hands on keyboard." src="images/keyboard-clavier.jpg" id="image07" /></div>
+	</div>
+	<h2>Fake users reap real gains</h2>
+	<h3>Fraudulent accounts abound on social networks</h3>
+	<p><strong>By Kurt Thomas and Dr. Chris Grier, University of California, Berkeley, and the International Computer Science Institute </strong></p>
+	<p>Online social networks such as Twitter, Facebook and Google+ dominate the daily activities of many Internet users, and cyber criminals have adapted their strategies to engage users within these “walled gardens.” </p>
+	<p> Just like regular users, criminals need accounts for these web services to carry out their monetization strategy effectively. This has led to a proliferation of fraudulent accounts — automatically generated credentials used to disseminate scams, phishing and malware. </p>
+	<p> Twitter’s Securities and Exchange Commission (SEC) filings estimate that fewer than five per cent of their users are fake. Similarly, Facebook estimates its own fraudulent account population at 1.5 per cent of its active user base, and the problem extends to nearly all web services beyond just social networks.</p>
+	<p> This article describes an investigation by a team of researchers from the University of California, Berkeley, the International Computer Science Institute, and George Mason University into the underground market that specializes in creating bulk Twitter credentials, studying how it operates, the impact the market has on Twitter spam levels, and exactly how merchants circumvent automated registration barriers. </p>
+	<p> The researchers infiltrated the account marketplace and monitored 27 merchants selling bulk Twitter credentials through web storefronts, blackhat forums and freelance labour sites — typically for a price of $40 per 1,000 accounts. </p>
+	<p> With the express permission of Twitter, the team conducted a longitudinal study of these merchants and purchased a total of 121,027 fraudulent Twitter accounts on a bi-weekly basis over 10 months from June 2012 to April 2013.</p>
+	<p> The team showed that underground merchants thoroughly understand Twitter’s existing defences against automated registration and, as a result, can generate millions of accounts with little disruption in availability or instability in pricing. </p>
+	<p> The 27 merchants tracked rely on CAPTCHA-solving services; fraudulent email credentials from Hotmail, Yahoo, and mail.ru; and tens of thousands of hosts located around the globe to provide a diverse pool of IP addresses to evade blacklisting and throttling. </p>
+	<p> Overall, the merchants were responsible for automatically generating 10 to 20 per cent of all accounts later flagged by Twitter as spam, with merchants pulling in a yearly revenue of between $127,000 and $459,000 from the sale of accounts. </p>
+	<p> With Twitter’s co-operation, the researchers helped disable 95 per cent of all the accounts controlled by the tracked merchants, depleting their stockpiles before the credentials could fall into the hands of spammers.</p>
+	<h4>How defences fail</h4>
+	<p> At the center of the for-profit spam and malware ecosystem is an underground market that connects Internet miscreants with parties selling a range of specialized products and services including CAPTCHA solving, Internet Protocol (IP) proxies and bulk email accounts. The researchers found that many of these underground services were employed by criminals to subvert Twitter’s existing defences against bulk account generation.</p>
+	<p> <strong>CAPTCHA solving:</strong> Twitter attempts to throttle registrations originating from a single IP address by requiring a CAPTCHA solution. The research team examined the CAPTCHA solution attempts for the merchants and found only eight per cent of CAPTCHAs were successfully solved. </p>
+	<p> Such accuracy rates are indicative of automated CAPTCHA-solving services that can be purchased from the underground. Even though CAPTCHAs successfully blocked 92 per cent of fake registrations on Twitter, account merchants were still able to register millions of accounts over the course of time, simply playing a game of odds.</p>
+	<p> <strong>Email confirmation:</strong> Twitter requires that new accounts go through an email challenge-response, or email confirmation step, immediately upon registration. During this process, Twitter sends a URL to the provided email address with a secret token. If the URL is successfully clicked, the account is considered confirmed. Accounts that don’t go through the confirmation step exist, but have a reduced set of capabilities for interacting with other Twitter users. </p>
+	<p> The researchers found that 77 per cent of all the accounts they purchased were confirmed with a unique email address. Merchants relied on bulk access to Hotmail, Yahoo, and mail.ru accounts to seed Twitter registrations, all of which are currently available for about $4 to $6 per 1,000 from the underground economy. </p>
+	<p> While the ability of merchants to verify email addresses may raise questions of the process’s validity, the researchers found that email confirmation positively impacts the price of accounts. Merchants charged 20 per cent more for confirmed Twitter accounts compared to their non-confirmed counterparts, effectively bundling the cost of an email account into the cost of a new Twitter credential.</p>
+	<p><strong>IP addresses:</strong> Unique IP addresses are a fundamental resource for registering accounts in bulk. Without a diverse IP pool, fraudulent accounts would fall easy prey to network-based blacklisting and throttling. </p>
+	<p> The researchers found that the largest fake account storefronts had tens of thousands of unique daily IPs at their disposal, which belonged to compromised hosts located around the globe. Even the smallest merchants had thousands of IPs on hand to avoid network-based detection. The most popular sources of abused IP addresses included India, Ukraine, Turkey, Thailand and Mexico. IP addresses from these regions are amongst the least expensive from the underground, with prices ranging from $6 to $10 per 1,000 hosts.</p>
+	<h4>Measuring the impact </h4>
+	<p> In order to estimate the overall impact the underground marketplace for fake accounts had on Twitter spam, the researchers leveraged their domain knowledge gained through infiltration to develop a fingerprint of the software merchants use to automatically register accounts. </p>
+	<p> Through a combination of machine learning and automated heuristics, the team engineered a system capable of detecting 95 per cent of all fake accounts registered by the underground market with a precision of 99.9942 per cent. </p>
+	<p> With Twitter’s co-operation, the team applied their detection framework to every account registered on Twitter between April 2012 and April 2013. In total, the system flagged several million accounts as fraudulent (the exact number being sensitive and as such, private). Of the accounts that researchers detected, 73 per cent had been sold and later used to disseminate spam, while the remaining 37 per cent remained dormant and were yet to be purchased. </p>
+	<p> The researchers co-ordinated with Twitter to gauge how substantial an impact the merchants had on Twitter spam levels over time. They found that, at its peak, the underground marketplace was responsible for registering 60 per cent of all accounts that would go on to be suspended by Twitter for abusive behaviour. </p>
+	<p> During more typical periods of activity, the merchants were responsible for registering 10 to 20 per cent of all spam accounts caught by Twitter. For their efforts, the researchers estimate the 27 merchants generated combined revenues of between $127,000 and $459,000 from the sale of accounts over a one-year period. </p>
+	<p> As many of the merchants also actively sold Google, Facebook, Hotmail and other accounts, this represents only a fraction of their overall revenue.</p>
+	<h4>Taking action </h4>
+	<p> In order to disrupt the underground marketplace for accounts, the research team worked with Twitter’s Anti-spam, SpamOps and Trust and Safety teams to disable all of the several million accounts the researchers flagged as spam. </p>
+	<p> Throughout this process, the team monitored the underground market to track any potential fallout and recovery, including an inability to purchase working credentials or a rise in prices. </p>
+	<p> Immediately after Twitter took action, <a href="http://buyaccs.com">buyaccs.com</a> — one of the largest purveyors of Twitter accounts — put up a notice in Russian on their website stating, “Временно не продаем аккаунты Twitter.com,” roughly translating to “Temporarily not selling Twitter.com accounts.” </p>
+	<p> Another merchant responded to a request by the team to purchase new accounts with “All of the stock got suspended ... Not just mine … It happened with all of the sellers ... Don’t know what Twitter has done ...” While Twitter’s initial intervention was a success, the market has begun to recover. Immediately after Twitter suspended all of the merchant’s stockpiles, the researchers attempted to purchase 14,067 new accounts and found 90 per cent of them were now invalid due to Twitter’s actions. </p>
+	<p> Repeating the process two weeks later, the researchers found only 54 per cent of 6,879 newly purchased accounts were invalid, indicating that merchants had begun to register new accounts to replenish their depleted stockpiles. </p>
+	<p> As the mass-suspension conducted by the researchers and Twitter was performed only once, merchants could simply resume their operations, abusing the same weaknesses in Twitter’s automated account detection to register new fake accounts. </p>
+	<p> As such, any long-term disruption of the account marketplace requires both increasing the cost of registration through improved automation barriers and integrating the detection framework that was developed into Twitter’s registration process to enable real-time detection of fake accounts. </p>
+</section>
+	</body>
+</html>

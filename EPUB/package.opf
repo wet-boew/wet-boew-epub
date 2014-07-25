@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package xmlns="http://www.idpf.org/2007/opf" version="3.0" unique-identifier="id">
+	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:opf="http://www.idpf.org/2007/opf">
+		<dc:identifier id="id">http://publications.gc.ca/pub?id=466122&amp;sl=0</dc:identifier>
+		<meta property="dcterms:modified">2014-04-03T04:39:13Z</meta>
+		<dc:title id="t1">Gazette magazine</dc:title>
+		<meta refines="#t1" property="title-type">main</meta>
+		<meta refines="#t1" property="display-seq">1</meta>
+		<dc:title id="t2">A Calming Influence - Diffusing Tense Situations</dc:title>
+		<meta refines="#t2" property="title-type">subtitle</meta>
+		<meta refines="#t2" property="display-seq">2</meta>
+		<dc:creator id="rcmp">Royal Canadian Mounted Police</dc:creator>
+		<meta property="file-as" refines="#rcmp">Royal Canadian Mounted Police</meta>
+		<dc:language>en</dc:language>
+		<dc:date>2014-04-03</dc:date>
+		<dc:subject>Police services</dc:subject>
+		<dc:source>http://publications.gc.ca/pub?id=466122&amp;sl=0</dc:source>
+		<dc:rights>All rights reserved.</dc:rights>
+		<dc:publisher id="flightdeck_publisher_1466">Royal Canadian Mounted Police</dc:publisher>
+	</metadata>
+	<manifest>
+		<item properties="cover-image" id="cover-img" href="images/cover.png" media-type="image/png" />
+		<item id="image01" href="images/abuse-abus.jpg" media-type="image/jpeg"/>
+		<item id="image02" href="images/bike-bicyclette.jpg" media-type="image/jpeg"/>
+		<item id="image03" href="images/boat-bateau.jpg" media-type="image/jpeg"/>
+		<item id="image04" href="images/cadets.jpg" media-type="image/jpeg"/>
+		<item id="image05" href="images/cyber.jpg" media-type="image/jpeg"/>
+		<item id="image06" href="images/interpol.jpg" media-type="image/jpeg"/>
+		<item id="image07" href="images/keyboard-clavier.jpg" media-type="image/jpeg"/>
+		<item id="image08" href="images/klappan.jpg" media-type="image/jpeg"/>
+		<item id="image09" href="images/victoria.jpg" media-type="image/jpeg"/>
+		<item id="image10" href="images/video.jpg" media-type="image/jpeg"/>
+		<item href="css/epub.css" id="css01" media-type="text/css"/>
+		<item href="cover.xhtml" id="cover" media-type="application/xhtml+xml"/>
+		<item href="story01.xhtml" id="story01" media-type="application/xhtml+xml"/>
+		<item href="story02.xhtml" id="story02" media-type="application/xhtml+xml"/>
+		<item href="story03.xhtml" id="story03" media-type="application/xhtml+xml"/>
+		<item href="story04.xhtml" id="story04" media-type="application/xhtml+xml"/>
+		<item href="story05.xhtml" id="story05" media-type="application/xhtml+xml"/>
+		<item href="story06.xhtml" id="story06" media-type="application/xhtml+xml"/>
+		<item href="story07.xhtml" id="story07" media-type="application/xhtml+xml"/>
+		<item href="story08.xhtml" id="story08" media-type="application/xhtml+xml"/>
+		<item href="story09.xhtml" id="story09" media-type="application/xhtml+xml"/>
+		<item href="story10.xhtml" id="story10" media-type="application/xhtml+xml"/>
+		<item href="story11.xhtml" id="story11" media-type="application/xhtml+xml"/>
+		<item href="story12.xhtml" id="story12" media-type="application/xhtml+xml"/>
+		<item href="story13.xhtml" id="story13" media-type="application/xhtml+xml"/>
+		<item properties="nav" href="nav.xhtml" id="nav" media-type="application/xhtml+xml"/>
+		<item href="toc.ncx" id="ncx" media-type="application/x-dtbncx+xml"/>
+	</manifest>
+	<spine toc="ncx">
+		<itemref idref="cover"/>
+		<itemref idref="nav"/>
+		<itemref idref="story01"/>
+		<itemref idref="story02"/>
+		<itemref idref="story03"/>
+		<itemref idref="story04"/>
+		<itemref idref="story05"/>
+		<itemref idref="story06"/>
+		<itemref idref="story07"/>
+		<itemref idref="story08"/>
+		<itemref idref="story09"/>
+		<itemref idref="story10"/>
+		<itemref idref="story11"/>
+		<itemref idref="story12"/>
+		<itemref idref="story13"/>
+	</spine>
+	<guide>
+		<reference type="cover" title="Cover image" href="cover.xhtml"></reference>
+		<reference type="toc" title="Table of contents" href="nav.xhtml"></reference>
+		<reference type="text" title="Begin Reading" href="story01.xhtml"></reference>
+	</guide>
+</package>
